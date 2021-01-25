@@ -1,0 +1,22 @@
+language: r
+warnings_are_errors: true
+sudo: true
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
+before_install:
+- tlmgr install fancyvrb units
+
+r_packages:
+- drat
+
+after_success:
+  - wget https://raw.githubusercontent.com/statcourses/drat/master/deploy.sh
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
+
+env:
+  global:
+    secure:

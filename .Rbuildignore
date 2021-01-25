@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^Extra-materials$
+^.travis.yml$
+^README.Rmd$
+^README.md$
+^BuildMe.R$
