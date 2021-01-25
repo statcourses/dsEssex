@@ -2,7 +2,7 @@
 My_packages <- c("dslabs", "dplyr", "stringr", "ggplot2", "tidytext", "textdata",
                  "english", "tidyr", "jsonlite", "lubridate", "scales")
 for(i in My_packages){
-  usethis::use_package(package = i, type = "imports", min_version = TRUE)
+  usethis::use_package(package = i, type = "imports")
 }
 
 ## document data
@@ -22,6 +22,12 @@ devtools::install()
 
 
 ######## Testing ########
+install.packages("drat")
+drat::addRepo("statcourses")
+install.packages("dsEssex")
+install.packages("BristolVis")
+install.packages("essexBigdata")
+
 require(dsEssex)
 
 data(lbw); data(nhanes); data(PR_Oct_Deaths); data(Trump_tweets)

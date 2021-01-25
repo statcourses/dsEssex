@@ -9,7 +9,7 @@ Description: Datasets and functions that can be used for teaching Data Science (
     to students with no or poor statistical background. This package is originally created
     to aid teaching Data Science for the DS conversion MSc programmes, delivered at the
     University of Essex, United Kingdom.
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.0.3)
 License: GPL-2 | GPL-3
 LazyData: true
 Encoding: UTF-8
@@ -19,14 +19,14 @@ RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)
 Repository: statcourses
 Imports: 
-    dslabs (>= 0.7.3),
-    dplyr (>= 0.8.5),
-    stringr (>= 1.4.0),
-    ggplot2 (>= 3.3.2),
-    tidytext (>= 0.2.6),
-    textdata (>= 0.4.1),
-    english (>= 1.2.5),
-    tidyr (>= 1.0.2),
-    jsonlite (>= 1.7.0),
-    lubridate (>= 1.7.9.2),
-    scales (>= 1.1.0)
+    dslabs,
+    dplyr,
+    stringr,
+    ggplot2,
+    tidytext,
+    textdata,
+    english,
+    tidyr,
+    jsonlite,
+    lubridate,
+    scales
