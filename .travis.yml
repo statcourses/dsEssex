@@ -1,6 +1,6 @@
 language: r
 warnings_are_errors: true
-sudo: true
+root: true
 notifications:
   email:
     on_success: change
