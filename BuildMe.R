@@ -18,7 +18,7 @@ devtools::build()
 
 ## install it
 #devtools::install(build_vignettes = TRUE)
-devtools::install()
+# devtools::install()
 
 
 ######## Testing ########
@@ -36,5 +36,3 @@ data(lbw); data(nhanes); data(PR_Oct_Deaths); data(Trump_tweets)
 help(package = dsEssex)
 # ?lbw; ?nhanes; ?PR_Oct_Deaths; ?Trump_tweets
 # vignette("NAME", package = "dsEssex")
-# system.file("extdata", "PR-Mortality.pdf", package="dsEssex")
-
