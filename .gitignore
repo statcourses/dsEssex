@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+^dsEssex.Rproj$
+^.DS_Store$
