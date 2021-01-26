@@ -23,15 +23,12 @@ devtools::install()
 
 ######## Testing ########
 require(devtools)
-devtools::install_github("statcourses/dsEssex")
-
-devtools::install_github("statcourses/BristolVis")  # done ok
+# ref=main is VERY IMPORTANT as Github has changed the defualt repo name from "master" to "main"
+devtools::install_github("statcourses/dsEssex", ref = "main")
 
 install.packages("drat")
 drat::addRepo("statcourses")
 install.packages("dsEssex")
-install.packages("BristolVis")
-install.packages("essexBigdata")
 
 require(dsEssex)
 
