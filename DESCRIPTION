@@ -9,7 +9,7 @@ Description: Datasets and functions that can be used for teaching Data Science (
     to students with no or poor statistical background. This package is originally created
     to aid teaching Data Science for the DS conversion MSc programmes, delivered at the
     University of Essex, United Kingdom.
-Depends: R (>= 3.0.3)
+Depends: R (>= 3.5.0)
 License: GPL-2 | GPL-3
 LazyData: true
 Encoding: UTF-8

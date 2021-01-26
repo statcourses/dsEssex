@@ -22,6 +22,11 @@ devtools::install()
 
 
 ######## Testing ########
+require(devtools)
+devtools::install_github("statcourses/dsEssex")
+
+devtools::install_github("statcourses/BristolVis")  # done ok
+
 install.packages("drat")
 drat::addRepo("statcourses")
 install.packages("dsEssex")
