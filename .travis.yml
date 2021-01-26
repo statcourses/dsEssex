@@ -1,0 +1,16 @@
+language: r
+warnings_are_errors: false
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+before_install:
+- tlmgr install fancyvrb units
+r_packages:
+- drat
+after_success:
+- wget https://raw.githubusercontent.com/statcourses/drat/master/deploy.sh
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "main" && bash deploy.sh
+env:
+  global:
+    secure: pYoos5CiVjeQ0pQbt9TvCEZ6EcwqsBeTezq2MxtppWOk465Ahtl03HArIYufJ44YGhj6+qYP7m1qxWbzjSsk+rIboW1xbzOi8GRbs/Lw3v6WbxdgKftkS5vTVdb7CviRVnVl6p1FwY6Vn0PTBBDRm9FKiHgdt/cVv0yfhW5ZoU9u6oRhyNrNUc7bsHrhiyXNJANVrlaGWyEKVNWS12/F4lG0bSMbIfDv7fwjWXWFjM36a14nN2sUV4pM7lAUxaTWA6wHax30F1U3ZTLH7OmHSYJvogfdMsLZ4ZEI9EeARNDHNBBXWLOFwQglQRM46Z0FrUwtSc1grzrHADkKZ/fZQV0AIgWfl9S6jTDNeNLxbZG/C4uORSsnXs7YIEeTqfM5s1eLXf3aMFIsFRb5xxQd1DYEv0TF3Ypi2GGSpSrQwsOvDm8L/bmiLuicVjVt69WhIUuUbtAJJ+rMxTcBlfBZ2EnWTpdp9JOZu7rV33BzJ8LU0onwAr2VL0oLxxfH+baCtIqSLqVJA+Qiu253OUW/x3aZ7JDD0gHs1cICS8T0+NICtCjjKVK/mKnxC7PrEPcRRz6SGW53Kp1CxVRkUTaAP7sATCVK97rqjRlBLwk5idmcsPf2NKeLUnK685PcszsKZfdwd/dGbka+HJYciGrZRm5XNb19C2S9cM/zMrTkEuE=
