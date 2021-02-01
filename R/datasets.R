@@ -117,3 +117,81 @@ NULL
 #' data(Trump_tweets)
 #' head(Trump_tweets)
 NULL
+
+
+#' Pain Medication
+#'
+#' The Pain Medication data is a modified data set from a randomized trial with 2 treatment
+#' arms (existing drug and new drug) for 800 individuals. It contains two dosage levels per
+#' treatment arm (low, high). The outcome is time to relief (hrs). In some subjects, no
+#' relief effect was ever observed. For these subjects, Status=0 (censored). For subjects
+#' where pain relief was observed, Status=1. The bseline and demographic measures include
+#' age, gender and health status. Therefore, the following variables are represented in columns:
+#'
+#'
+#' \describe{
+#' \item{age}{Subject's age at time of experiment}
+#' \item{gender}{A factor: Male or Female}
+#' \item{health}{Pre-defined health condition: poor, fair, good}
+#' \item{treatment}{A factor: Existing or New}
+#' \item{dosage}{Level of treatment's dose}
+#' \item{status}{Status of effect observation, either 'Observed' or 'Censored'}
+#' \item{time}{Time to relief in hours}
+#' }
+#'
+#' @name med
+#' @docType data
+#' @usage data(med)
+#' @keywords datasets
+#' @examples
+#' data(med)
+NULL
+
+
+#' Birth Weight
+#'
+#' @name birthweight
+#' @docType data
+#' @usage data(birthweight)
+#' @return A data frame with 20 rows and 4 variables.
+#' @keywords datasets
+#' @examples
+#' data(birthweight)
+NULL
+
+
+#' Movie information and user ratings.
+#'
+#' The internet movie database is a website devoted to collecting movie data supplied by
+#' studios and fans. It claims to be the biggest movie database on the web and is run by Amazon.
+#'
+#' \describe{
+#' \item{title}{Title of the movie.}
+#' \item{year}{Year of release.}
+#' \item{budget}{Total budget (if known) in US dollars}
+#' \item{length}{Length in minutes.}
+#' \item{rating}{Average IMDB user rating.}
+#' \item{votes}{Number of IMDB users who rated this movie.}
+#' \item{r1-10}{Multiplying by ten gives percentile (to nearest 10%) of users who rated this movie a 1.}
+#' \item{mpaa}{MPAA rating.}
+#' \item{action, animation, comedy, drama, documentary, romance, short}{Binary variable representing if movie was classified as belonging to that genre.}
+#' }
+#'
+#' @name bmov
+#' @docType data
+#' @usage data(bmov)
+#' @return A data frame with 4847 rows and 24 variables.
+#' @keywords datasets
+#' @note Movies were selected for inclusion if they had a known length, had been rated by at least one imdb user and had an mpaa rating. The  data set contains the following fields:
+#' @source http://imdb.com
+#' @examples
+#' data(bmov)
+NULL
+
+
+
+
+
+
+
+

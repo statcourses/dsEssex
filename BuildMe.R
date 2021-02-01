@@ -1,8 +1,14 @@
 ## Adding the imports to the Description file automatically
 My_packages <- c("dslabs", "dplyr", "stringr", "ggplot2", "tidytext", "textdata",
-                 "english", "tidyr", "jsonlite", "lubridate", "scales")
+                 "english", "tidyr", "jsonlite", "lubridate", "scales", "ggcorrplot")
+
 for(i in My_packages){
   usethis::use_package(package = i, type = "imports")
+}
+
+My_Depends <- c("plotly")
+for(j in My_Depends){
+  usethis::use_package(package = j, type = "Depends")
 }
 
 ## document data
