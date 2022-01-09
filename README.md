@@ -21,7 +21,7 @@ teaching Data Science to beginner learners.
 -   [Contact](#contact)
 -   [Issues](https://github.com/statcourses/dsEssex/issues)
 
-# Overview AAA
+# Overview
 
 This R package provides datasets, functions, and objects that can be
 used for teaching Data Science (DS) to students with no or poor
