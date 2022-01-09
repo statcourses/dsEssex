@@ -40,9 +40,8 @@ The `dsEssex` R package includes a variety of *data examples*, *case-studies*, *
 
 ```{r eval=FALSE}
 # required only once per machine!
-install.packages("drat")
-drat::addRepo("statcourses")
-install.packages("dsEssex")
+if(!require("devtools")) install.packages("devtools")
+devtools::install_github("statcourses/dsEssex")
 ```
 
 ## R Dependencies

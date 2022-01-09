@@ -33,6 +33,9 @@ require(devtools)
 devtools::install_github("statcourses/dsEssex", ref = "main")
 
 
+if(!require("devtools")) install.packages("devtools")
+devtools::install_github("statcourses/dsEssex")
+
 
 
 install.packages("drat")
@@ -40,6 +43,8 @@ drat::addRepo("statcourses")
 install.packages("dsEssex")
 
 require(dsEssex)
+
+data(ted_talks)
 
 data(lbw); data(nhanes); data(PR_Oct_Deaths); data(Trump_tweets); data(ted_talks)
 help(package = dsEssex)
