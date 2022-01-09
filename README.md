@@ -58,9 +58,8 @@ running the following code lines into your R session.
 
 ``` r
 # required only once per machine!
-install.packages("drat")
-drat::addRepo("statcourses")
-install.packages("dsEssex")
+if(!require("devtools")) install.packages("devtools")
+devtools::install_github("statcourses/dsEssex")
 ```
 
 ## R Dependencies

@@ -32,12 +32,11 @@ require(devtools)
 # ref=main is VERY IMPORTANT as Github has changed the defualt repo name from "master" to "main"
 devtools::install_github("statcourses/dsEssex", ref = "main")
 
-
+# Alternatively
 if(!require("devtools")) install.packages("devtools")
 devtools::install_github("statcourses/dsEssex")
 
-
-
+# Alternatively (less prefered as Travis CI is no longer free)
 install.packages("drat")
 drat::addRepo("statcourses")
 install.packages("dsEssex")
