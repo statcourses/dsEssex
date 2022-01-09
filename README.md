@@ -10,8 +10,8 @@ Status](https://travis-ci.com/statcourses/dsEssex.svg?branch=main)](https://trav
 [![License: GPL
 v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-The `dsEssex` is an R package containing data examples and tools for
-teaching Data Science to beginner learners.
+The `dsEssex` is an R package containing data examples and helpful tools
+for teaching Data Science to beginner learners.
 
 -   [Overview](#overview)
 -   [System Requirements](#system-requirements)
@@ -23,23 +23,23 @@ teaching Data Science to beginner learners.
 
 # Overview
 
-This R package provides datasets, functions, and objects that can be
-used for teaching Data Science (DS) to students with no or poor
+This R package provides datasets, case-studies, functions, and exercises
+that can be used for teaching Data Science to students with no/little
 statistical and/or programming backgrounds. This is originally created
-to aid the delivery of the [MSc Applied Data
+to facilitate the delivery of the [MSc Applied Data
 Science](https://www.essex.ac.uk/courses/pg01389/1/msc-applied-data-science)
 and [MSc Data Science and its
 Applications](https://www.essex.ac.uk/courses/pg01404/1/msc-data-science-and-its-applications)
 at the University of Essex, United Kingdom. However, it can be also used
-for teaching data science to undergraduate students in Statistics and
-Data Science programmes.
+for teaching R programming and data science to both undergraduate and
+postgraduate students in other Data Science programmes.
 
 # System Requirements
 
 ## Hardware requirements
 
-Most of the standard computers should work well with the `dsEssex` R
-package.
+The `dsEssex` R package should be smoothly installed and working well
+with most of the standard computers.
 
 ## Software requirements
 
@@ -52,9 +52,9 @@ Ubuntu 16.04 (R 3.6.1) + macOS: Mojave 10.14.6 (R 3.6.1) + Windows: 10
 
 The `dsEssex` R package includes a variety of *data examples*,
 *case-studies*, *R package dependencies* and *practical sheets* that can
-facilitate teaching data science in labs, workshops, and classes. The
-easiest way of downloading and installing the `dsEssex` R package is by
-running the following code lines into your R session.
+facilitate teaching data science in lectures, labs, workshops, and
+classes. The easiest way to install the `dsEssex` R package is by
+running the following code lines into your R session:
 
 ``` r
 # required only once per machine!
@@ -68,10 +68,11 @@ This software requires `R (>= 3.5.0)`. If you do have an older version
 of R installed on your machine, you may need to install the latest R
 version [from here](https://cloud.r-project.org/).
 
-Installing the `dsEssex` R package will automateically install the
-following dependens that are required for most Data Science labs,
+Installing the `dsEssex` R package will automatically install the
+following dependencies that are required for most Data Science labs,
 classes and workshops:
 
+    tidyverse
     dslabs
     dplyr
     stringr

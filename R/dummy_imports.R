@@ -1,4 +1,4 @@
-#' @import dslabs ggplot2 dplyr stringr tidytext textdata ggcorrplot
+#' @import dslabs ggplot2 dplyr stringr tidytext textdata ggcorrplot tidyverse
 #' @importFrom english words
 #' @importFrom tidyr extract gather
 #' @importFrom jsonlite fromJSON
