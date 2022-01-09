@@ -1,6 +1,6 @@
 ## Adding the imports to the Description file automatically
-My_packages <- c("dslabs", "dplyr", "stringr", "ggplot2", "tidytext", "textdata",
-                 "english", "tidyr", "jsonlite", "lubridate", "scales", "ggcorrplot")
+My_packages <- c("tidyverse", "tidytext", "dslabs", "stringr", "textdata",
+                 "english", "jsonlite", "lubridate", "scales", "ggcorrplot")
 
 for(i in My_packages){
   usethis::use_package(package = i, type = "imports")
@@ -32,13 +32,16 @@ require(devtools)
 # ref=main is VERY IMPORTANT as Github has changed the defualt repo name from "master" to "main"
 devtools::install_github("statcourses/dsEssex", ref = "main")
 
+
+
+
 install.packages("drat")
 drat::addRepo("statcourses")
 install.packages("dsEssex")
 
 require(dsEssex)
 
-data(lbw); data(nhanes); data(PR_Oct_Deaths); data(Trump_tweets)
+data(lbw); data(nhanes); data(PR_Oct_Deaths); data(Trump_tweets); data(ted_talks)
 help(package = dsEssex)
 # ?lbw; ?nhanes; ?PR_Oct_Deaths; ?Trump_tweets
 # vignette("NAME", package = "dsEssex")

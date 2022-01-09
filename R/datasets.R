@@ -189,6 +189,28 @@ NULL
 NULL
 
 
+#' TED Talks as Data
+#'
+#' The is a simplified version of the data, released as part of the paper, "TED talks as Data", by Katherine M. Kinnaird and
+#' John Laudun that is published in the Journal of Cultural Analyics, 2019.
+#'
+#' \describe{
+#' \item{talk_id}{the identifier from the TED website for the corresponding talk}
+#' \item{headline}{the talk title}
+#' \item{text}{the text/script of the TED talk}
+#' \item{speaker}{the first listed speaker (some TED talks have more than one speaker)}
+#' \item{views}{number of views at the time of data collection (summer of 2018)}
+#' }
+#'
+#' @name ted_talks
+#' @docType data
+#' @usage data(ted_talks)
+#' @return A data frame with 992 rows and 5 variables.
+#' @keywords datasets
+#' @source Simplified from Katherine M. Kinnaird and John Laudun (2019), Journal of Cultural Analyics.
+#' @examples
+#' data(ted_talks)
+NULL
 
 
 
