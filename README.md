@@ -13,15 +13,15 @@ v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/li
 The `dsEssex` is an R package containing data examples and tools for
 teaching Data Science to beginner learners.
 
-  - [Overview](#overview)
-  - [System Requirements](#system-requirements)
-  - [Installation Guide](#installation-guide)
-  - [Testing the Package](#testing-the-package)
-  - [License](#license)
-  - [Contact](#contact)
-  - [Issues](https://github.com/statcourses/dsEssex/issues)
+-   [Overview](#overview)
+-   [System Requirements](#system-requirements)
+-   [Installation Guide](#installation-guide)
+-   [Testing the Package](#testing-the-package)
+-   [License](#license)
+-   [Contact](#contact)
+-   [Issues](https://github.com/statcourses/dsEssex/issues)
 
-# Overview
+# Overview AAA
 
 This R package provides datasets, functions, and objects that can be
 used for teaching Data Science (DS) to students with no or poor
