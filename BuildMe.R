@@ -44,6 +44,7 @@ install.packages("dsEssex")
 require(dsEssex)
 
 data(ted_talks)
+data(tweets_david)
 
 data(lbw); data(nhanes); data(PR_Oct_Deaths); data(Trump_tweets); data(ted_talks)
 help(package = dsEssex)
