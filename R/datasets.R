@@ -213,6 +213,31 @@ NULL
 NULL
 
 
+#' Twitter Archive for Julia Slige
+#'
+#' This is the Twitter archive of Julia Silge (https://twitter.com/juliasilge) which contains the entire
+#' archive of her tweets.
+#' @name tweets_julia
+#' @docType data
+#' @usage data(tweets_julia)
+#' @source https://github.com/dgrtwo/tidy-text-mining/tree/master/data
+#' @examples
+#' data(tweets_julia)
+NULL
+
+
+#' Twitter Archive for David Robinson
+#'
+#' This is the Twitter archive of David Robinson (https://twitter.com/drob) which contains the entire
+#' archive of his tweets.
+#' @name tweets_david
+#' @docType data
+#' @usage data(tweets_david)
+#' @source https://github.com/dgrtwo/tidy-text-mining/tree/master/data
+#' @examples
+#' data(tweets_david)
+NULL
+
 
 
 

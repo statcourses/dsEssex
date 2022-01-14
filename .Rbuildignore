@@ -1,7 +1,9 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^Extra-materials$
-^.travis.yml$
+^\.travis.yml$
 ^README.Rmd$
 ^README.md$
 ^BuildMe.R$
+^\.Rhistory$
+^LICENSE.md$
