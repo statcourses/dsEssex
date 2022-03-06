@@ -3,6 +3,7 @@
 library(pdftools)
 txt <- pdf_text("PR-Mortality.pdf")
 Mort_raw <- txt[10]
+
 require(stringr)
 Oct_Death <- str_split(Mort_raw, "\r\n")[[1]]
 
