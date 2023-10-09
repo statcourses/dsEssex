@@ -11,7 +11,9 @@ knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.path = "README-")
 
 [![Build Status](https://travis-ci.com/statcourses/dsEssex.svg?branch=main)](https://travis-ci.com/statcourses/dsEssex) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-![](img/dsEssex-logo.png){width=10%}
+```{r dsEssex-logo, echo = F, out.width = "200px"}
+knitr::include_graphics('img/dsEssex-logo.png')
+```
 
 The `dsEssex` is an R package containing data examples and helpful tools for teaching Data Science to beginner learners.
 

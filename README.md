@@ -10,7 +10,7 @@ Status](https://travis-ci.com/statcourses/dsEssex.svg?branch=main)](https://trav
 [![License: GPL
 v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-<img src="img/dsEssex-logo.png" style="width:10.0%" />
+<img src="img/dsEssex-logo.png" width="200px" />
 
 The `dsEssex` is an R package containing data examples and helpful tools
 for teaching Data Science to beginner learners.
