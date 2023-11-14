@@ -143,7 +143,7 @@ NULL
 #' @docType data
 #' @usage data(med)
 #' @keywords datasets
-#' @source XXXXXXX
+#' @source The data can be accessed via National Library of Medicine (NCBI); https://www.ncbi.nlm.nih.gov/ 
 #' @examples
 #' data(med)
 NULL
@@ -208,7 +208,7 @@ NULL
 #' @usage data(ted_talks)
 #' @return A data frame with 992 rows and 5 variables.
 #' @keywords datasets
-#' @source Simplified from Katherine M. Kinnaird and John Laudun (2019), Journal of Cultural Analyics.
+#' @source Simplified from Katherine M. Kinnaird and John Laudun (2019), Journal of Cultural Analyics; DOI:10.22148/16.042.
 #' @examples
 #' data(ted_talks)
 NULL
