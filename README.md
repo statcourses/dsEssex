@@ -60,8 +60,8 @@ running the following code lines into your R session:
 
 ``` r
 # required only once per machine!
-if(!require("devtools")) install.packages("devtools")
-devtools::install_github("statcourses/dsEssex")
+if(!require("remotes")) install.packages("remotes")
+remotes::install_github("statcourses/dsEssex")
 ```
 
 ## R Dependencies

@@ -62,8 +62,8 @@ NULL
 #' @usage data(nhanes)
 #' @return A data frame with 10,000 rows and 20 variables.
 #' @keywords datasets
-#' @source selected variables from the NHANES data in the \code{NHANES} R package. It is
-#' originally assembled by Michelle Dalrymple of Cashmere High School and Chris Wild of
+#' @source Selected variables from the NHANES data in the \code{NHANES} R package; https://cran.r-project.org/web/packages/nhanesA/nhanesA.pdf. 
+#' It is originally assembled by Michelle Dalrymple of Cashmere High School and Chris Wild of
 #' the University of Auckland, New Zealand for use in teaching statistics.
 #' @examples
 #' data(nhanes)
@@ -83,7 +83,7 @@ NULL
 #' @keywords datasets
 #' @source These data were extracted by Osama Mahmoud (the author and the maintainer of this
 #'  R package) from a pdf report on a daily mortality in the month of October through 2015-2018.
-#'  The pdf report was available as part of the dslabs R package by Rafael A. Irizarry.
+#'  The pdf report was available as part of the dslabs R package by Rafael A. Irizarry; https://cran.r-project.org/web/packages/dslabs/dslabs.pdf.
 #' @examples
 #' data(PR_Oct_Deaths)
 NULL
@@ -143,6 +143,7 @@ NULL
 #' @docType data
 #' @usage data(med)
 #' @keywords datasets
+#' @source XXXXXXX
 #' @examples
 #' data(med)
 NULL
@@ -183,7 +184,7 @@ NULL
 #' @return A data frame with 4847 rows and 24 variables.
 #' @keywords datasets
 #' @note Movies were selected for inclusion if they had a known length, had been rated by at least one imdb user and had an mpaa rating. The  data set contains the following fields:
-#' @source http://imdb.com
+#' @source Accessed from Movie information and user ratings; http://imdb.com
 #' @examples
 #' data(bmov)
 NULL
@@ -220,7 +221,7 @@ NULL
 #' @name tweets_julia
 #' @docType data
 #' @usage data(tweets_julia)
-#' @source https://github.com/dgrtwo/tidy-text-mining/tree/master/data
+#' @source Extracted from Twitter Archive for Julia Slige; https://github.com/dgrtwo/tidy-text-mining/tree/master/data
 #' @examples
 #' data(tweets_julia)
 NULL
@@ -233,7 +234,7 @@ NULL
 #' @name tweets_david
 #' @docType data
 #' @usage data(tweets_david)
-#' @source https://github.com/dgrtwo/tidy-text-mining/tree/master/data
+#' @source Extracted from Twitter Archive for David Robinson; https://github.com/dgrtwo/tidy-text-mining/tree/master/data
 #' @examples
 #' data(tweets_david)
 NULL
