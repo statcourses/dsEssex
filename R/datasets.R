@@ -183,7 +183,7 @@ NULL
 #' @return A data frame with 4847 rows and 24 variables.
 #' @keywords datasets
 #' @note Movies were selected for inclusion if they had a known length, had been rated by at least one imdb user and had an mpaa rating. The  data set contains the following fields:
-#' @source http://imdb.com
+#' @source Accessed from http://imdb.com
 #' @examples
 #' data(bmov)
 NULL
@@ -207,7 +207,7 @@ NULL
 #' @usage data(ted_talks)
 #' @return A data frame with 992 rows and 5 variables.
 #' @keywords datasets
-#' @source Simplified from Katherine M. Kinnaird and John Laudun (2019), Journal of Cultural Analyics.
+#' @source Simplified from Katherine M. Kinnaird and John Laudun (2019), Journal of Cultural Analyics. Extracted from https://pdfs.semanticscholar.org/711e/9a8a2e8b7d7fab367e548b3142b2f02b9bbe.pdf
 #' @examples
 #' data(ted_talks)
 NULL
@@ -220,7 +220,7 @@ NULL
 #' @name tweets_julia
 #' @docType data
 #' @usage data(tweets_julia)
-#' @source https://github.com/dgrtwo/tidy-text-mining/tree/master/data
+#' @source Extracted from https://github.com/dgrtwo/tidy-text-mining/tree/master/data
 #' @examples
 #' data(tweets_julia)
 NULL
@@ -233,7 +233,7 @@ NULL
 #' @name tweets_david
 #' @docType data
 #' @usage data(tweets_david)
-#' @source https://github.com/dgrtwo/tidy-text-mining/tree/master/data
+#' @source Extracted from https://github.com/dgrtwo/tidy-text-mining/tree/master/data
 #' @examples
 #' data(tweets_david)
 NULL
