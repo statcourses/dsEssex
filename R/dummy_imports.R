@@ -5,5 +5,6 @@
 #' @importFrom lubridate ymd ydm mdy myd dmy dym ymd_hms
 #' @importFrom scales percent_format
 #' @importFrom plotly ggplotly
+#' @importFrom stats qnorm
 
 NULL

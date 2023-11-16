@@ -18,9 +18,12 @@ devtools::document()
 
 ## compress the dataset
 tools::resaveRdaFiles("data/", compress = "xz")
+## check compression
+tools::checkRdaFiles("data/")
 
 ## build the package
 devtools::build()
+devtools::check()
 
 ## install it
 #devtools::install(build_vignettes = TRUE)

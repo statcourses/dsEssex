@@ -7,3 +7,5 @@
 ^BuildMe.R$
 ^\.Rhistory$
 ^LICENSE.md$
+^.*\.git$
+^img$
