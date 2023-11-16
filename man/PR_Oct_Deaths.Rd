@@ -7,7 +7,7 @@
 \source{
 These data were extracted by Osama Mahmoud (the author and the maintainer of this
 R package) from a pdf report on a daily mortality in the month of October through 2015-2018.
-The pdf report was available as part of the dslabs R package by Rafael A. Irizarry.
+The pdf report was available as part of the dslabs R package by Rafael A. Irizarry; https://cran.r-project.org/web/packages/dslabs/dslabs.pdf.
 }
 \usage{
 data(PR_Oct_Deaths)

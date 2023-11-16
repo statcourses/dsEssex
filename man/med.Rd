@@ -4,6 +4,9 @@
 \name{med}
 \alias{med}
 \title{Pain Medication}
+\source{
+The data can be accessed via National Library of Medicine (NCBI); https://www.ncbi.nlm.nih.gov/
+}
 \usage{
 data(med)
 }

@@ -1,8 +1,8 @@
 Package: dsEssex
 Type: Package
 Title: Data Science at the University of Essex
-Version: 1.1.0
-Date: 2022-03-06
+Version: 2.0.0
+Date: 2023-11-16
 Author: Osama Mahmoud [aut, cre, cph](<https://orcid.org/0000-0003-0342-6704>)
 Maintainer: Osama Mahmoud <o.mahmoud@essex.ac.uk>
 Description: Datasets and functions that can be used for teaching Data Science (DS)
@@ -17,7 +17,7 @@ LazyData: true
 Encoding: UTF-8
 Suggests: knitr (>= 1.12), rmarkdown (>= 0.9)
 VignetteBuilder: knitr
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)
 Repository: statcourses
 Imports: 

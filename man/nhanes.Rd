@@ -5,8 +5,8 @@
 \alias{nhanes}
 \title{National Health & Nutrition Examination Survey}
 \source{
-selected variables from the NHANES data in the \code{NHANES} R package. It is
-originally assembled by Michelle Dalrymple of Cashmere High School and Chris Wild of
+Selected variables from the NHANES data in the \code{NHANES} R package; https://cran.r-project.org/web/packages/nhanesA/nhanesA.pdf.
+It is originally assembled by Michelle Dalrymple of Cashmere High School and Chris Wild of
 the University of Auckland, New Zealand for use in teaching statistics.
 }
 \usage{

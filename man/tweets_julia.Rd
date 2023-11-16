@@ -5,7 +5,7 @@
 \alias{tweets_julia}
 \title{Twitter Archive for Julia Slige}
 \source{
-https://github.com/dgrtwo/tidy-text-mining/tree/master/data
+Extracted from Twitter Archive for Julia Slige; https://github.com/dgrtwo/tidy-text-mining/tree/master/data
 }
 \usage{
 data(tweets_julia)

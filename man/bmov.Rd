@@ -5,7 +5,7 @@
 \alias{bmov}
 \title{Movie information and user ratings.}
 \source{
-http://imdb.com
+Accessed from Movie information and user ratings; http://imdb.com
 }
 \usage{
 data(bmov)

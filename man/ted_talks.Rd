@@ -5,7 +5,7 @@
 \alias{ted_talks}
 \title{TED Talks as Data}
 \source{
-Simplified from Katherine M. Kinnaird and John Laudun (2019), Journal of Cultural Analyics.
+Simplified from Katherine M. Kinnaird and John Laudun (2019), Journal of Cultural Analyics; DOI:10.22148/16.042.
 }
 \usage{
 data(ted_talks)

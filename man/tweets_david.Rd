@@ -5,7 +5,7 @@
 \alias{tweets_david}
 \title{Twitter Archive for David Robinson}
 \source{
-https://github.com/dgrtwo/tidy-text-mining/tree/master/data
+Extracted from Twitter Archive for David Robinson; https://github.com/dgrtwo/tidy-text-mining/tree/master/data
 }
 \usage{
 data(tweets_david)
