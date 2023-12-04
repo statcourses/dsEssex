@@ -13,7 +13,7 @@ CI_log_OR(log_OR, numerator, denominator, sig = 0.05, upper = TRUE)
 
 \item{denominator}{the column whose data are the frequencies of the denominator}
 
-\item{sig}{significance level}
+\item{sig}{significance level (i.e., 0.05 for 95\% CI)}
 
 \item{upper}{logical, if TRUE (the default), return the upper limit of the confidence interval. Otherwise return its lower limit}
 }
