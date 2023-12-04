@@ -2,6 +2,7 @@
 My_packages <- c("tidyverse", "tidytext", "dslabs", "stringr", "textdata",
                  "english", "jsonlite", "lubridate", "scales", "ggcorrplot")
 
+
 for(i in My_packages){
   usethis::use_package(package = i, type = "imports")
 }
